@@ -4,6 +4,12 @@
 
 Encrypted JSON is an easy way for you to encrypt or decrypt your JSON files.
 
+## Install
+
+```
+pip install encryptjson
+```
+
 ## Encrypt
 
 ```py

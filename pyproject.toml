@@ -3,9 +3,12 @@ requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
 [project]
-name = "encryptedjson"
-version = "1.0.1"
+name = "encryptjson"
+version = "1.0.2"
 readme = "README.md"
 dependencies = [
   "cryptography"
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["encrypted_json"]
