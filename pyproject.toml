@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "encrypted_json"
+version = "1.0.0"
+dependencies = [
+  "cryptography"
+]
